@@ -3,17 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Hobbies</title>
+<title>Contact Me</title>
 </head>
 <body>
-    <h3>Contact Details</h3>
-        <ul>Phone: (303) 746-6138</ul>
-        <ul>email: cshaw0048@yahoo.com</ul>
-
-    <form class="" action="index.html" method="post"
+    <h1>Contact Details</h1>
+        <p>Phone: (303) 746-6138</p>
+        <p>email: cshaw0048@yahoo.com</p>
+    <hr>
+    <form action="mailto:cshaw0048@yahoo.com" method="post" enctype="text/plain">
         <label>Your Name:</label>
-        <input type="text" name="" value="">
-        <input type="submit" value="Save">
+        <input type="text" name="yourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="8" cols="30"></textarea><br>  
+        <input type="submit" name="">      
     </form>
 </body>
 </html>
